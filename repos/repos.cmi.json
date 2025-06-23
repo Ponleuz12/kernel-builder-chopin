@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "bxsj-KernelSU-Proton-release",
-      "repo": "https://github.com/AOSP-13-Mediatek/kernel_xiaomi_chopin",
-      "branch": "r",
-      "device": "chopin",
-      "defconfig": "chopin_user_defconfig"
+      "name": "KernelRMX2195",
+      "repo": "https://github.com/Ponleuz12/kernel_realme_sm4250",
+      "branch": "stable",
+      "device": "RMX2195",
+      "defconfig": "stock_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -39,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/osm0sis/AnyKernel3",
-      "branch": "master"
+      "repo": "https://github.com/insetion/AnyKernel3",
+      "branch": "RMX2195"
     }
   }
 ]
